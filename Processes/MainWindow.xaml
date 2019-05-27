@@ -1,0 +1,31 @@
+﻿<Window x:Class="Processes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Processes"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="Диспетчер задач" Height="620.521" Width="852.605"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        Loaded="WindowLoaded">
+    <Grid>
+        <DataGrid Name="dataGrid" AutoGenerateColumns="True" ColumnWidth="*" IsReadOnly="True" Height="518" VerticalAlignment="Top">
+            <!--<DataGrid.Columns>
+                <DataGridTextColumn Header="Имя"/>
+                <DataGridTextColumn Header="ИД процесса"/>
+                <DataGridTextColumn Header="Имя компьютера"/>
+                <DataGridTextColumn Header="Объем памяти"/>
+                <DataGridTextColumn Header="Выключен"/>
+            </DataGrid.Columns>-->
+        </DataGrid>
+        <Button Content="Снять задачу" Margin="683,536,35,11" Click="ButtonClick"/>
+
+    </Grid>
+</Window>
