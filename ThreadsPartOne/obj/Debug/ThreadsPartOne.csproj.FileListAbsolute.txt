@@ -1,0 +1,8 @@
+C:\Users\СкоропадИг\source\repos\ThreadsPartOne\ThreadsPartOne\bin\Debug\ThreadsPartOne.exe.config
+C:\Users\СкоропадИг\source\repos\ThreadsPartOne\ThreadsPartOne\bin\Debug\ThreadsPartOne.exe
+C:\Users\СкоропадИг\source\repos\ThreadsPartOne\ThreadsPartOne\bin\Debug\ThreadsPartOne.pdb
+C:\Users\СкоропадИг\source\repos\ThreadsPartOne\ThreadsPartOne\obj\Debug\ThreadsPartOne.csprojAssemblyReference.cache
+C:\Users\СкоропадИг\source\repos\ThreadsPartOne\ThreadsPartOne\obj\Debug\ThreadsPartOne.csproj.CoreCompileInputs.cache
+C:\Users\СкоропадИг\source\repos\ThreadsPartOne\ThreadsPartOne\obj\Debug\ThreadsPartOne.exe
+C:\Users\СкоропадИг\source\repos\ThreadsPartOne\ThreadsPartOne\obj\Debug\ThreadsPartOne.pdb
+C:\Users\СкоропадИг\source\repos\ThreadsPartOne\ThreadsPartOne\bin\Debug\shrek_09. Smash Mouth - All Star.wav
