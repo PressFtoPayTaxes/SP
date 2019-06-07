@@ -1,0 +1,10 @@
+C:\Users\СкоропадИг\source\repos\TPL\TPL\bin\Debug\TPL.exe.config
+C:\Users\СкоропадИг\source\repos\TPL\TPL\bin\Debug\TPL.exe
+C:\Users\СкоропадИг\source\repos\TPL\TPL\bin\Debug\TPL.pdb
+C:\Users\СкоропадИг\source\repos\TPL\TPL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\СкоропадИг\source\repos\TPL\TPL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\СкоропадИг\source\repos\TPL\TPL\obj\Debug\TPL.csprojAssemblyReference.cache
+C:\Users\СкоропадИг\source\repos\TPL\TPL\obj\Debug\TPL.csproj.CoreCompileInputs.cache
+C:\Users\СкоропадИг\source\repos\TPL\TPL\obj\Debug\TPL.csproj.CopyComplete
+C:\Users\СкоропадИг\source\repos\TPL\TPL\obj\Debug\TPL.exe
+C:\Users\СкоропадИг\source\repos\TPL\TPL\obj\Debug\TPL.pdb
