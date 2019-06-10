@@ -1,0 +1,6 @@
+c:\users\admin\source\repos\WithSynchronization\WithSynchronization\bin\Debug\WithSynchronization.exe.config
+c:\users\admin\source\repos\WithSynchronization\WithSynchronization\bin\Debug\WithSynchronization.exe
+c:\users\admin\source\repos\WithSynchronization\WithSynchronization\bin\Debug\WithSynchronization.pdb
+c:\users\admin\source\repos\WithSynchronization\WithSynchronization\obj\Debug\WithSynchronization.csproj.CoreCompileInputs.cache
+c:\users\admin\source\repos\WithSynchronization\WithSynchronization\obj\Debug\WithSynchronization.exe
+c:\users\admin\source\repos\WithSynchronization\WithSynchronization\obj\Debug\WithSynchronization.pdb
