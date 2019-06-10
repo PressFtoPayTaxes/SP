@@ -1,0 +1,7 @@
+c:\users\admin\source\repos\WithoutSynchronization\WithoutSynchronization\bin\Debug\WithoutSynchronization.exe.config
+c:\users\admin\source\repos\WithoutSynchronization\WithoutSynchronization\bin\Debug\WithoutSynchronization.exe
+c:\users\admin\source\repos\WithoutSynchronization\WithoutSynchronization\bin\Debug\WithoutSynchronization.pdb
+c:\users\admin\source\repos\WithoutSynchronization\WithoutSynchronization\obj\Debug\WithoutSynchronization.csprojResolveAssemblyReference.cache
+c:\users\admin\source\repos\WithoutSynchronization\WithoutSynchronization\obj\Debug\WithoutSynchronization.csproj.CoreCompileInputs.cache
+c:\users\admin\source\repos\WithoutSynchronization\WithoutSynchronization\obj\Debug\WithoutSynchronization.exe
+c:\users\admin\source\repos\WithoutSynchronization\WithoutSynchronization\obj\Debug\WithoutSynchronization.pdb
