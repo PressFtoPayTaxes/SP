@@ -1,0 +1,22 @@
+﻿<Window x:Class="CloudStorage.DropBoxWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CloudStorage"
+        mc:Ignorable="d"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        Title="Хранилище" Height="442.5" Width="768.6"
+        Loaded="WindowLoaded">
+    <Grid>
+        <Button Content="Загрузить файл" Margin="152,346,162.8,0" VerticalAlignment="Top" Click="ButtonClick"/>
+        <DataGrid Name="dataGrid" Height="312" VerticalAlignment="Top" Margin="0,0,1.8,0"/>
+
+    </Grid>
+</Window>
