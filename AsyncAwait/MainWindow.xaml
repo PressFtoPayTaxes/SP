@@ -1,0 +1,115 @@
+﻿<Window x:Class="AsyncAwait.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:AsyncAwait"
+        mc:Ignorable="d"
+        Title="Not-A-Steam" Height="572.46" Width="626"
+        Loaded="WindowLoaded" Background="MidnightBlue">
+    <ScrollViewer>
+        <StackPanel>
+            <materialDesign:Card Background="DarkBlue" Height="150" Margin="30, 30, 30, 0">
+                <Grid>
+                    <Image Name="firstCardImage" Width="150" Height="150" HorizontalAlignment="Left"/>
+                    <TextBlock Name="firstNameTextBox" TextAlignment="Center" HorizontalAlignment="Center" Margin="150,10,10,0" TextWrapping="Wrap" Text="SomeName" VerticalAlignment="Top" FontSize="20" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="398"/>
+                    <TextBlock Name="firstGenreTextBox" HorizontalAlignment="Center" Margin="176,42,0.4,0" TextWrapping="Wrap" Text="Жанры:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                    <TextBlock x:Name="firstCategoryTextBox" HorizontalAlignment="Center" Margin="176,68,0.4,0" TextWrapping="Wrap" Text="Категория:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                    <TextBlock x:Name="firstReleaseDateTextBox" HorizontalAlignment="Center" Margin="176,94,0.4,0" TextWrapping="Wrap" Text="Дата релиза:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                    <TextBlock x:Name="firstPopularityTextBox" HorizontalAlignment="Center" Margin="176,121,0.4,0" TextWrapping="Wrap" Text="Популярность:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                </Grid>
+            </materialDesign:Card>
+            <materialDesign:Card Background="DarkBlue" Height="150" Margin="30,30,30,0">
+                <Grid>
+                    <Image x:Name="secondCardImage" Width="150" Height="150" HorizontalAlignment="Left"/>
+                    <TextBlock x:Name="secondNameTextBox" TextAlignment="Center" HorizontalAlignment="Center" Margin="150,10,10,0" TextWrapping="Wrap" Text="SomeName" VerticalAlignment="Top" FontSize="20" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="398"/>
+                    <TextBlock x:Name="secondGenreTextBox" HorizontalAlignment="Center" Margin="176,41,0.4,0" TextWrapping="Wrap" Text="Жанры:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                    <TextBlock x:Name="secondCategoryTextBox" HorizontalAlignment="Center" Margin="176,67,0.4,0" TextWrapping="Wrap" Text="Категория:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                    <TextBlock x:Name="secondReleaseDateTextBox" HorizontalAlignment="Center" Margin="176,94,0.4,0" TextWrapping="Wrap" Text="Дата релиза:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                    <TextBlock x:Name="secondPopularityTextBox" HorizontalAlignment="Center" Margin="176,120,0.4,0" TextWrapping="Wrap" Text="Популярность:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                </Grid>
+            </materialDesign:Card>
+            <materialDesign:Card Background="DarkBlue" Height="150" Margin="30,30,30,0">
+                <Grid>
+                    <Image x:Name="thirdCardImage" Width="150" Height="150" HorizontalAlignment="Left"/>
+                    <TextBlock x:Name="thirdNameTextBox" TextAlignment="Center" HorizontalAlignment="Center" Margin="150,10,10,0" TextWrapping="Wrap" Text="SomeName" VerticalAlignment="Top" FontSize="20" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="398"/>
+                    <TextBlock x:Name="thirdGenreTextBox" HorizontalAlignment="Center" Margin="176,39,0.4,0" TextWrapping="Wrap" Text="Жанры:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                    <TextBlock x:Name="thirdCategoryTextBox" HorizontalAlignment="Center" Margin="176,66,0.4,0" TextWrapping="Wrap" Text="Категория:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                    <TextBlock x:Name="thirdReleaseDateTextBox" HorizontalAlignment="Center" Margin="176,92,0.4,0" TextWrapping="Wrap" Text="Дата релиза:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                    <TextBlock x:Name="thirdPopularityTextBox" HorizontalAlignment="Center" Margin="176,119,0.4,0" TextWrapping="Wrap" Text="Популярность:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                </Grid>
+            </materialDesign:Card>
+            <materialDesign:Card Background="DarkBlue" Height="150" Margin="30,30,30,0">
+                <Grid>
+                    <Image x:Name="forthCardImage" Width="150" Height="150" HorizontalAlignment="Left"/>
+                    <TextBlock x:Name="forthNameTextBox" TextAlignment="Center" HorizontalAlignment="Center" Margin="150,10,10,0" TextWrapping="Wrap" Text="SomeName" VerticalAlignment="Top" FontSize="20" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="398"/>
+                    <TextBlock x:Name="forthGenreTextBox" HorizontalAlignment="Center" Margin="176,39,0.4,0" TextWrapping="Wrap" Text="Жанры:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                    <TextBlock x:Name="forthCategoryTextBox" HorizontalAlignment="Center" Margin="176,66,0.4,0" TextWrapping="Wrap" Text="Категория:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                    <TextBlock x:Name="forthReleaseDateTextBox" HorizontalAlignment="Center" Margin="176,92,0.4,0" TextWrapping="Wrap" Text="Дата релиза:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                    <TextBlock x:Name="forthPopularityTextBox" HorizontalAlignment="Center" Margin="176,119,0.4,0" TextWrapping="Wrap" Text="Популярность:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                </Grid>
+            </materialDesign:Card>
+            <materialDesign:Card Background="DarkBlue" Height="150" Margin="30,30,30,0">
+                <Grid>
+                    <Image x:Name="fifthCardImage" Width="150" Height="150" HorizontalAlignment="Left"/>
+                    <TextBlock x:Name="fifthNameTextBox" TextAlignment="Center" HorizontalAlignment="Center" Margin="150,10,10,0" TextWrapping="Wrap" Text="SomeName" VerticalAlignment="Top" FontSize="20" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="398"/>
+                    <TextBlock x:Name="fifthGenreTextBox" HorizontalAlignment="Center" Margin="176,40,0.4,0" TextWrapping="Wrap" Text="Жанры:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                    <TextBlock x:Name="fifthCategoryTextBox" HorizontalAlignment="Center" Margin="176,66,0.4,0" TextWrapping="Wrap" Text="Категория:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                    <TextBlock x:Name="fifthReleaseDateTextBox" HorizontalAlignment="Center" Margin="176,92,0.4,0" TextWrapping="Wrap" Text="Дата релиза:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                    <TextBlock x:Name="fifthPopularityTextBox" HorizontalAlignment="Center" Margin="176,119,0.4,0" TextWrapping="Wrap" Text="Популярность:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                </Grid>
+            </materialDesign:Card>
+            <materialDesign:Card Background="DarkBlue" Height="150" Margin="30,30,30,0">
+                <Grid>
+                    <Image x:Name="sixthCardImage" Width="150" Height="150" HorizontalAlignment="Left"/>
+                    <TextBlock x:Name="sixthNameTextBox" TextAlignment="Center" HorizontalAlignment="Center" Margin="150,10,10,0" TextWrapping="Wrap" Text="SomeName" VerticalAlignment="Top" FontSize="20" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="398"/>
+                    <TextBlock x:Name="sixthGenreTextBox" HorizontalAlignment="Center" Margin="176,41,0.4,0" TextWrapping="Wrap" Text="Жанры:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                    <TextBlock x:Name="sixthCategoryTextBox" HorizontalAlignment="Center" Margin="176,67,0.4,0" TextWrapping="Wrap" Text="Категория:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                    <TextBlock x:Name="sixthReleaseDateTextBox" HorizontalAlignment="Center" Margin="176,94,0.4,0" TextWrapping="Wrap" Text="Дата релиза:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                    <TextBlock x:Name="sixthPopularityTextBox" HorizontalAlignment="Center" Margin="176,120,0.4,0" TextWrapping="Wrap" Text="Популярность:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                </Grid>
+            </materialDesign:Card>
+            <materialDesign:Card Background="DarkBlue" Height="150" Margin="30,30,30,0">
+                <Grid>
+                    <Image x:Name="seventhCardImage" Width="150" Height="150" HorizontalAlignment="Left"/>
+                    <TextBlock x:Name="seventhNameTextBox" TextAlignment="Center" HorizontalAlignment="Center" Margin="150,10,10,0" TextWrapping="Wrap" Text="SomeName" VerticalAlignment="Top" FontSize="20" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="398"/>
+                    <TextBlock x:Name="seventhGenreTextBox" HorizontalAlignment="Center" Margin="176,39,0.4,0" TextWrapping="Wrap" Text="Жанры:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                    <TextBlock x:Name="seventhCategoryTextBox" HorizontalAlignment="Center" Margin="176,66,0.4,0" TextWrapping="Wrap" Text="Категория:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                    <TextBlock x:Name="seventhReleaseDateTextBox" HorizontalAlignment="Center" Margin="176,92,0.4,0" TextWrapping="Wrap" Text="Дата релиза:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                    <TextBlock x:Name="seventhPopularityTextBox" HorizontalAlignment="Center" Margin="176,119,0.4,0" TextWrapping="Wrap" Text="Популярность:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                </Grid>
+            </materialDesign:Card>
+            <materialDesign:Card Background="DarkBlue" Height="150" Margin="30,30,30,0">
+                <Grid>
+                    <Image x:Name="eighthCardImage" Width="150" Height="150" HorizontalAlignment="Left"/>
+                    <TextBlock x:Name="eighthNameTextBox" TextAlignment="Center" HorizontalAlignment="Center" Margin="150,10,10,0" TextWrapping="Wrap" Text="SomeName" VerticalAlignment="Top" FontSize="20" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="398"/>
+                    <TextBlock x:Name="eighthGenreTextBox" HorizontalAlignment="Center" Margin="176,39,0.4,0" TextWrapping="Wrap" Text="Жанры:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                    <TextBlock x:Name="eighthCategoryTextBox" HorizontalAlignment="Center" Margin="176,66,0.4,0" TextWrapping="Wrap" Text="Категория:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                    <TextBlock x:Name="eighthReleaseDateTextBox" HorizontalAlignment="Center" Margin="176,92,0.4,0" TextWrapping="Wrap" Text="Дата релиза:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                    <TextBlock x:Name="eighthPopularityTextBox" HorizontalAlignment="Center" Margin="176,119,0.4,0" TextWrapping="Wrap" Text="Популярность:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                </Grid>
+            </materialDesign:Card>
+            <materialDesign:Card Background="DarkBlue" Height="150" Margin="30,30,30,0">
+                <Grid>
+                    <Image x:Name="ninthCardImage" Width="150" Height="150" HorizontalAlignment="Left"/>
+                    <TextBlock x:Name="ninthNameTextBox" TextAlignment="Center" HorizontalAlignment="Center" Margin="150,10,10,0" TextWrapping="Wrap" Text="SomeName" VerticalAlignment="Top" FontSize="20" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="398"/>
+                    <TextBlock x:Name="ninthGenreTextBox" HorizontalAlignment="Center" Margin="176,39,0.4,0" TextWrapping="Wrap" Text="Жанры:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                    <TextBlock x:Name="ninthCategoryTextBox" HorizontalAlignment="Center" Margin="176,66,0.4,0" TextWrapping="Wrap" Text="Категория:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                    <TextBlock x:Name="ninthReleaseDateTextBox" HorizontalAlignment="Center" Margin="176,92,0.4,0" TextWrapping="Wrap" Text="Дата релиза:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                    <TextBlock x:Name="ninthPopularityTextBox" HorizontalAlignment="Center" Margin="176,119,0.4,0" TextWrapping="Wrap" Text="Популярность:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                </Grid>
+            </materialDesign:Card>
+            <materialDesign:Card Background="DarkBlue" Height="150" Margin="30,30,30,0">
+                <Grid>
+                    <Image x:Name="tenthCardImage" Width="150" Height="150" HorizontalAlignment="Left"/>
+                    <TextBlock x:Name="tenthNameTextBox" TextAlignment="Center" HorizontalAlignment="Center" Margin="150,10,10,0" TextWrapping="Wrap" Text="SomeName" VerticalAlignment="Top" FontSize="20" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="398"/>
+                    <TextBlock x:Name="tenthGenreTextBox" HorizontalAlignment="Center" Margin="176,39,0.4,0" TextWrapping="Wrap" Text="Жанры:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                    <TextBlock x:Name="tenthCategoryTextBox" HorizontalAlignment="Center" Margin="176,66,0.4,0" TextWrapping="Wrap" Text="Категория:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                    <TextBlock x:Name="tenthReleaseDateTextBox" HorizontalAlignment="Center" Margin="176,92,0.4,0" TextWrapping="Wrap" Text="Дата релиза:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                    <TextBlock x:Name="tenthPopularityTextBox" HorizontalAlignment="Center" Margin="176,119,0.4,0" TextWrapping="Wrap" Text="Популярность:" VerticalAlignment="Top" FontSize="16" Foreground="White" RenderTransformOrigin="-0.456,0.263" Width="366"/>
+                </Grid>
+            </materialDesign:Card>
+        </StackPanel>
+    </ScrollViewer>
+</Window>
